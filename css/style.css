@@ -1,6 +1,7 @@
 /*this allows me to have no default margin*/
 *{
     margin:0px;
+    font-family: 'Roboto Slab', serif;
 }
 
 .greyfont{
