@@ -59,20 +59,24 @@
 }
 
 /* TABLE CSS SECTION */
-
+.tablebox{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 /*this style allows to collapse the borders of a table*/
 table{
     border-collapse: collapse;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    width:100%;
 }
 
 th{
     height: 20px;
+    
 }
 
 td{
     height:40px;
+    width:20%;
 }
 
 /*blue background color and white font*/
