@@ -1,3 +1,5 @@
+/* HEADER */
+
 .header-section{
    background-color: aqua;
    width: 100px;
@@ -8,3 +10,9 @@
     background-image: url(../img/pattern.png);
     background-size: contain;
 }
+
+/* MAIN */
+
+
+
+/* FOOTER */
