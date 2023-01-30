@@ -1,12 +1,14 @@
+/*this allows me to have no default margin*/
 *{
     margin:0px;
 }
 /* HEADER */
 
+/*I made this part so that i can put a photo above the other*/
 .header-section{
    background-color: aqua;
    height: 50px;
-   margin: 0px;
+   
 }
 .pattern{
     height: 50px;
@@ -21,10 +23,23 @@
 
 /* MAIN */
 
+/*margin top and bottom of the titlemain div*/
+.titlemain{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*the journalist style allows me to write it in blue*/
 .journalist{
     color: rgb(38, 0, 255);
 }
 
+/*Margin of the photomain div*/
+.photomain{
+    margin-bottom: 10px;
+}
+
+/*This style allows me to highlight some words or paragraphs*/
 .highlighted{
     background-color: yellow;
 }
@@ -32,24 +47,32 @@
 
 
 /* TABLE CSS SECTION */
+
+/*this style allows to collapse the borders of a table*/
 table{
     border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-td, th{
-    padding: 8px;
+
+th{
+    height: 20px;
+    padding: 1px;
 }
+
+/*blue background color and white font*/
 .blueback{
     background-color: rgb(0, 125, 241);
     color: white;
 }
 
+/*aqua backgrpund color*/
 .aquaback{
     background-color: aqua;
 }
 
+
 /* FOOTER */
-
-
 
 .artimage{
     width: 200px;
