@@ -13,6 +13,10 @@
 
 /* MAIN */
 
+.journalist{
+    color: rgb(38, 0, 255);
+}
+
 .highlighted{
     background-color: yellow;
 }
