@@ -20,7 +20,12 @@
 /* TABLE CSS SECTION */
 
 #tablebox{
-    
+
 }
 
 /* FOOTER */
+
+.artimage{
+    width: 100px;
+    color: white;
+}
