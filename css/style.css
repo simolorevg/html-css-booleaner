@@ -36,11 +36,14 @@
 
 /* FOOTER */
 
+
+
 .artimage{
     width: 200px;
     height:200px;
     color: white;
     font-weight: bold;
+    margin: 5px;
 }
 
 .graphimage{
