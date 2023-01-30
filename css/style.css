@@ -2,23 +2,28 @@
 *{
     margin:0px;
 }
+
+.greyfont{
+    color:grey;
+}
+
 /* HEADER */
 
 /*I made this part so that i can put a photo above the other*/
 .header-section{
    background-color: aqua;
-   height: 50px;
+   height: 70px;
    
 }
 .pattern{
-    height: 50px;
+    height: 100%;
     background-image: url(../img/pattern.png);
     background-size: contain;
 }
 
 .logo{
-    height: 30px;
-    margin-top: 10px
+    height: 40px;
+    margin-top: 30px;
 }
 
 /* MAIN */
@@ -37,6 +42,11 @@
 /*Margin of the photomain div*/
 .photomain{
     margin-bottom: 10px;
+}
+
+/*made for resize the subtitle infos of the photos*/
+.subtitle{
+    font-size: 0.7rem;
 }
 
 /*This style allows me to highlight some words or paragraphs*/
@@ -59,7 +69,10 @@ table{
 
 th{
     height: 20px;
-    padding: 1px;
+}
+
+td{
+    height:40px;
 }
 
 /*blue background color and white font*/
