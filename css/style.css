@@ -26,7 +26,7 @@
 /*margin top and bottom of the titlemain div*/
 .titlemain{
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 /*the journalist style allows me to write it in blue*/
@@ -44,7 +44,9 @@
     background-color: yellow;
 }
 
-
+.listlorem{
+    margin-top:10px;
+}
 
 /* TABLE CSS SECTION */
 
@@ -74,20 +76,25 @@ th{
 
 /* FOOTER */
 
+.footersection{
+    margin-top:10px;
+}
+
 .artimage{
     width: 200px;
     height:200px;
     color: white;
     font-weight: bold;
-    margin: 5px;
+    margin-bottom: 5px;
+    margin-top:10px;
 }
 
 .graphimage{
     background-image: url("../img/graph.jpg");
-    background-size: contain;
+    background-size: cover;
 }
 
 .monitorimage{
     background-image: url("../img/monitor.jpg");
-    background-size: contain;
+    background-size: cover;
 }
