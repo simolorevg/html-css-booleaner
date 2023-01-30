@@ -1,9 +1,10 @@
 .header-section{
    background-color: aqua;
-   width: 50px; 
+   width: 100px;
+   height: 50px;
 }
 .pattern{
-    width: 50px;
+    width: 100px;
     background-image: url(../img/pattern.png);
     background-size: contain;
 }
